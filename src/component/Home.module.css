@@ -1,0 +1,174 @@
+.homeContainer{
+  display: flex;
+  height: auto;
+  width: 85%;
+  margin-left: 7%;
+  margin-top: 80px;
+  font-family: "Poppins" , sans-serif;
+}
+.content{
+  padding: 0px;
+  width: 60%;
+  height: auto;
+  padding: 20px 0px 0px 100px;
+  /* border: 2px solid red; */
+}
+
+.line1{
+  font-size: 34px;
+  font-weight: 800;
+  margin-bottom: 15px;
+  color: whitesmoke;
+}
+
+
+.line2{
+  font-size:36px ;
+  font-weight: 600;
+  margin-bottom: 0px;
+  color: #cff8d3;
+}
+.line3{
+  font-size: 34px;
+  font-weight: 400;
+  text-decoration: underline;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+  word-spacing: 10px;
+  font-weight: 300;
+  color: #e18c2b;
+}
+.line4{
+  font-size:20px;
+  font-weight:400;
+  line-height:30px;
+  color:  #e8e2e2;
+  text-align: justify;
+
+}
+.resume{
+  height: 40px;
+  width: 140px;
+  font-size: 14px;
+  margin-top: 30px;
+  background-color: #0f4d55;
+  color: #e18c2b;
+  border-radius: 5px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: 2px solid #e18c2b ;
+  cursor: pointer;
+}
+.resume:hover{
+  color: #e8e2e2;
+  transition: 1.5s;
+}
+.hire{
+  height: 40px;
+  margin-left: 50px;
+  width: 140px;
+  font-size: 14px;
+  margin-top: 30px;
+  background-color:#0f4d55;
+  color: #e18c2b;
+  text-transform: uppercase;
+  font-weight: 700;
+  border-radius: 5px;
+  border: 2px solid #e18c2b;
+  cursor: pointer;
+}
+.hire:hover {
+  color: #e8e2e2;
+  transition: 1.5s;
+}
+
+.profile{
+  width: 400px;
+  height: 380px;
+  margin-left: 120px;
+  /* background-image: url(./Kimi\ No\ Na\ Wa\ wallpaper\ ·①\ Download\ free\ stunning\ High\ Resolution\ backgrounds\ for\ desktop\ computers\ and\ smartphones\ in\ any\ resolution_\ desktop\,\ Android\,\ iPhone\,\ iPad\ 1920x1080\,\ 480x800\,\ 720x1280\,\ 1920x1200\ etc_\ Wallpa.jpg); */
+  background-size:300px;
+  background-image: url("./Media/akash.jpg");
+  background-position: center;
+  border-radius: 50%;
+  /* border: 2px solid black; */
+  background-color: #abaaa7;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  
+}
+
+@media (max-width: 1024px) {
+  .homeContainer {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+  }
+  .content {
+    width: 100%;
+    padding-left: 30px;
+    margin: -40px 0px 20px 0px;
+    
+  }
+  .profile {
+    width: 50%;
+    height: 350px;
+    margin: 20px 40px 0px 0px;
+  }
+  .line1 {
+    font-size: 28px;
+  }
+  .line2 {
+    font-size: 30px;
+  }
+  .line3 {
+    font-size: 28px;
+  }
+  .line4 {
+    font-size: 18px;
+  }
+  .resume, .hire {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 400px) {
+  .homeContainer {
+    flex-direction: column;
+    display: flex;
+     align-items: center;
+     transform: translateY(-10px);
+  }
+  .content {
+    width: 10%;
+    padding:10px;
+        margin: -40px 0px 20px 0px;
+  }
+  .profile {
+    width: 55%;
+    margin-top: 40px;
+    height: 220px;
+    /* padding-bottom: 60px; */
+  }
+  .line1 {
+    font-size: 22px;
+  }
+  .line2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  .line3 {
+    font-size: 18px;
+  }
+  .line4 {
+    font-size: 16px;
+  }
+  .resume, .hire {
+    font-size: 14px;
+    margin-left: 0px;
+    
+  }
+  .hire{
+      margin-left: 50px;
+  }
+}
