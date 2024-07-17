@@ -1,4 +1,4 @@
-# My Portfolio
+# My Portfolio 
 
 This is my personal portfolio website built with React. It showcases my projects, skills, and provides a way to contact me.
 
@@ -61,3 +61,12 @@ If you have suggestions for improving this portfolio, please open an issue or cr
 ## License
 
 This project is licensed under the MIT License.
+
+## Acknowledgements
+
+- Thanks to all the libraries and tools used in this project.
+
+## Contact
+
+For any inquiries, please reach out via the contact form on the website or directly at [akash.vu08@gmail.com](mailto:akash.vu08@gmail.com).
+
